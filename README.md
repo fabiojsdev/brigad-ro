@@ -1,54 +1,27 @@
-# React + TypeScript + Vite
+# 🍫 Brigadêro - Venda de Brigadeiros Online  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Brigadêro Banner](https://source.unsplash.com/1600x600/?chocolate,dessert)  
 
-Currently, two official plugins are available:
+## 🌟 Sobre o Projeto  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **Brigadêro** é um site moderno e responsivo para vendas de brigadeiros gourmet. Criado com **React**, **TypeScript**, **Tailwind CSS** e **Vite**, ele oferece uma experiência rápida, bonita e intuitiva para os clientes.  
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚡ **[Vite](https://vitejs.dev/)** — Build tool ultra rápido  
+- ⚛️ **[React](https://react.dev/)** — Biblioteca para interfaces modernas  
+- 🏗️ **[TypeScript](https://www.typescriptlang.org/)** — Código tipado e mais seguro  
+- 🎨 **[Tailwind CSS](https://tailwindcss.com/)** — Estilização rápida e eficiente  
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📸 Preview  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🔗 **[Acesse a versão online](#)** _(www.brigadero.vercel.app)_  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+![Brigadêro Preview](https://source.unsplash.com/1200x800/?chocolate,cake)  
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📦 Como Rodar o Projeto  
+
+### **1️⃣ Clone o Repositório**  
+```sh
+git clone https://github.com/seu-usuario/brigadero.git
+cd brigadero
