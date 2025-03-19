@@ -1,4 +1,10 @@
 import { motion } from "framer-motion"; // Para animações
+import brigadeiro1 from "../assets/images/brigadeiro1.webp"
+import brigadeiro2 from "../assets/images/brigadeiro2.jpg"
+import brigadeiro3 from "../assets/images/brigadeiro3.jpg"
+import brigadeiro4 from "../assets/images/brigadeiro4.png"
+import brigadeiro5 from "../assets/images/brigadeiro5.jpg"
+import brigadeiro6 from "../assets/images/brigadeiro6.jpg"
 
 // Dados dos brigadeiros (pode ser substituído por dados reais posteriormente)
 const brigadeiros = [
@@ -7,42 +13,42 @@ const brigadeiros = [
     nome: "Brigadeiro Tradicional",
     descricao: "O clássico brigadeiro de chocolate que todo mundo ama.",
     preco: "R$ 2,50",
-    imagem: "https://via.placeholder.com/300x200", // Imagem genérica
+    imagem: brigadeiro1, 
   },
   {
     id: 2,
     nome: "Brigadeiro de Morango",
     descricao: "Feito com morangos frescos e chocolate ao leite.",
     preco: "R$ 3,00",
-    imagem: "https://via.placeholder.com/300x200", // Imagem genérica
+    imagem: brigadeiro2, // Imagem genérica
   },
   {
     id: 3,
     nome: "Brigadeiro de Ninho",
     descricao: "Cremoso e delicioso, feito com leite Ninho.",
     preco: "R$ 3,00",
-    imagem: "https://via.placeholder.com/300x200", // Imagem genérica
+    imagem: brigadeiro3, // Imagem genérica
   },
   {
     id: 4,
     nome: "Brigadeiro de Café",
     descricao: "Perfeito para os amantes de café, com um toque especial.",
     preco: "R$ 3,50",
-    imagem: "https://via.placeholder.com/300x200", // Imagem genérica
+    imagem: brigadeiro4, // Imagem genérica
   },
   {
     id: 5,
     nome: "Brigadeiro de Paçoca",
     descricao: "A combinação perfeita de chocolate e paçoca.",
     preco: "R$ 3,00",
-    imagem: "https://via.placeholder.com/300x200", // Imagem genérica
+    imagem: brigadeiro5, // Imagem genérica
   },
   {
     id: 6,
     nome: "Brigadeiro de Limão",
     descricao: "Um toque cítrico e refrescante para surpreender.",
     preco: "R$ 3,50",
-    imagem: "https://via.placeholder.com/300x200", // Imagem genérica
+    imagem: brigadeiro6, // Imagem genérica
   },
 ];
 
@@ -70,7 +76,7 @@ const Brigadeiros = () => {
           variants={titleAnimation}
           className="text-5xl font-bold text-[#772626] mb-12"
         >
-          Cardapio
+          Cardápio
         </motion.h2>
 
         {/* Cards dos brigadeiros */}
