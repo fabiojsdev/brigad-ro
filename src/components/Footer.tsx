@@ -8,12 +8,12 @@ const Footer = () => {
         <p className="flex items-center justify-center gap-2 text-base">
           Desenvolvido com <FaCookieBite className="text-[#E8B3B3]" /> por
           <a
-            href="https://connectionstree.com"
+            href="https://connectionstree.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#E8B3B3] hover:text-[#F9F0F0] transition-all"
           >
-            Connections Tree
+            connectionstree
           </a>
         </p>
         <p className="mt-1 text-xs text-[#E8B3B3]">
